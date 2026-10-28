@@ -1,0 +1,36 @@
+{
+    "name": "pushinbr/pam-native-sensors",
+    "description": "Motion sensors for PAM Native: one-shot reads and throttled watches of the accelerometer, gyroscope, magnetometer and rotation vector.",
+    "type": "pam-native-plugin",
+    "license": "Apache-2.0",
+    "keywords": [
+        "pam",
+        "pam-native",
+        "php",
+        "android",
+        "ios",
+        "sensors",
+        "motion"
+    ],
+    "require": {
+        "php": "^8.5",
+        "pushinbr/pam-native": "^1.46"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pam\\Native\\Sensors\\": "src/"
+        }
+    },
+    "extra": {
+        "pam-native": {
+            "plugin": "pam-native.plugin.json"
+        }
+    },
+    "scripts": {
+        "test": "php tests/run.php"
+    },
+    "config": {
+        "platform-check": true,
+        "sort-packages": true
+    }
+}

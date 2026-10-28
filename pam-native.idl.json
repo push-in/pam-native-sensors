@@ -1,0 +1,14 @@
+{
+    "$schema": "vendor/pushinbr/pam-native-plugin-kit/resources/pam-native.idl.schema.json",
+    "version": 1,
+    "namespace": "Pam.Sensors",
+    "enums": {
+        "SensorType": {
+            "Accelerometer": 1,
+            "Gyroscope": 2,
+            "Magnetometer": 3,
+            "DeviceMotion": 4
+        }
+    },
+    "records": {}
+}
